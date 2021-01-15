@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: helvetica;
+  font-family: "Clicker Script", cursive;
   font-size: 1.5rem;
   color: #fff;
   background-image: url(image.jpg);
@@ -28,7 +28,115 @@ body {
   height: 30rem;
   border-radius: 10px;
   backdrop-filter: blur(5px);
-  box-shadow: 10px 5px 10px rgba(167, 218, 219, 0.2);
+  box-shadow: 10px 5px 10px rgba(167, 218, 219, 0.3);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
+.aboutme h3 {
+  text-align: center;
+}
+.aboutme h3:hover{
+  color:rgba(255, 255, 255, 0.2);
+}
+.aboutme h3::after{
+  content: "";
+  position: absolute;
+  width: 4rem;
+  height: 2px;
+  background-color: #fff;
+  top: 2rem;
+  left: 37%;
+  animation-name: deco;
+  animation-duration: 2s;
+}
+@keyframes deco {
+  0% 
+  {width: 0;}
+  100% 
+  {width: 4rem;}
+}
+.aboutme p{
+  text-align:center;
+  padding:1rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.projects h3{
+ text-align:center;
+}
+
+.projects h3:hover{
+  color:rgba(255, 255, 255, 0.2);
+}
+
+.projects h3::after{
+  content: "";
+  position: absolute;
+  width: 4rem;
+  height: 2px;
+  background-color: #fff;
+  top: 11rem;
+  left: 37%;
+  animation-name: deco;
+  animation-duration: 2s;
+}
+@keyframes deco {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 4rem;
+  }
+}
+
+.projects a{
+  text-decoration:none;
+  color:#fff;
+  font-size:1rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 0.5rem;
+}
+
+.projects a:hover{
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.contact h3{
+  text-align:center;
+}
+.contact h3::after{
+  content: "";
+  position: absolute;
+  width: 4rem;
+  height: 2px;
+  background-color: #fff;
+  top: 20rem;
+  left: 37%;
+  animation-name: deco;
+  animation-duration: 2s;
+}
+@keyframes deco {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 4rem;
+  }
+}
+
+.contact h3:hover{
+  color:rgba(255, 255, 255, 0.2);
+}
+
+.contact a{
+  text-decoration:none;
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+}
+
