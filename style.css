@@ -34,6 +34,7 @@ body {
 }
 .aboutme h3 {
   text-align: center;
+  padding-top:1rem;
 }
 .aboutme h3:hover{
   color:rgba(255, 255, 255, 0.2);
@@ -44,7 +45,7 @@ body {
   width: 4rem;
   height: 2px;
   background-color: #fff;
-  top: 2rem;
+  top: 3rem;
   left: 37%;
   animation-name: deco;
   animation-duration: 2s;
@@ -63,7 +64,8 @@ body {
 }
 
 .projects h3{
- text-align:center;
+ text-align:center; 
+ padding-bottom:0.9rem;
 }
 
 .projects h3:hover{
@@ -76,7 +78,7 @@ body {
   width: 4rem;
   height: 2px;
   background-color: #fff;
-  top: 11rem;
+  top: 12rem;
   left: 37%;
   animation-name: deco;
   animation-duration: 2s;
@@ -97,7 +99,7 @@ body {
   display:flex;
   align-items:center;
   justify-content:center;
-  padding: 0.5rem;
+  padding: 0.6rem;
 }
 
 .projects a:hover{
@@ -105,15 +107,17 @@ body {
 }
 
 .contact h3{
-  text-align:center;
+ text-align:center;
+ padding:0.7rem;
 }
+
 .contact h3::after{
   content: "";
   position: absolute;
   width: 4rem;
   height: 2px;
   background-color: #fff;
-  top: 20rem;
+  top: 23.1rem;
   left: 37%;
   animation-name: deco;
   animation-duration: 2s;
@@ -134,9 +138,18 @@ body {
 .contact a{
   text-decoration:none;
   color:#fff;
-  display:flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content:center;
+  padding:1.6rem;
 }
 
+.contact a:hover{
+  color:rgba(255, 255, 255, 0.2);
+}
+
+.footer{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  text-align: center;
+  font-size:0.9rem;
+}
