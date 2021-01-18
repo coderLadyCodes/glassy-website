@@ -10,7 +10,8 @@ body {
   color: #fff;
   background-image: url(image.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
+  background-position: center;
   overflow: hidden;
 }
 
@@ -34,10 +35,11 @@ body {
 }
 .aboutme h3 {
   text-align: center;
-  padding-top:1rem;
+  padding-top:0.7rem;
 }
 .aboutme h3:hover{
   color:rgba(255, 255, 255, 0.2);
+  transition: 0.3s all ease;
 }
 .aboutme h3::after{
   content: "";
@@ -45,7 +47,7 @@ body {
   width: 4rem;
   height: 2px;
   background-color: #fff;
-  top: 3rem;
+  top: 2.8rem;
   left: 37%;
   animation-name: deco;
   animation-duration: 2s;
@@ -65,11 +67,12 @@ body {
 
 .projects h3{
  text-align:center; 
- padding-bottom:0.9rem;
+ padding-bottom:0.7rem;
 }
 
 .projects h3:hover{
   color:rgba(255, 255, 255, 0.2);
+  transition: 0.3s all ease;
 }
 
 .projects h3::after{
@@ -78,7 +81,7 @@ body {
   width: 4rem;
   height: 2px;
   background-color: #fff;
-  top: 12rem;
+  top: 11.8rem;
   left: 37%;
   animation-name: deco;
   animation-duration: 2s;
@@ -91,24 +94,40 @@ body {
     width: 4rem;
   }
 }
+.projects{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+}
+.proj{
+  background-color:rgba(130, 247, 227, 0.1);
+  width:7rem;
+  height:2rem;
+  border-radius:5rem;
+  margin: 5px;
+  text-align:center;
+}
+
+.proj:hover{
+  background-color:rgba(255, 255, 255, 0.01);
+}
 
 .projects a{
   text-decoration:none;
   color:#fff;
   font-size:1rem;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding: 0.6rem;
 }
 
 .projects a:hover{
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s all ease;
 }
+
 
 .contact h3{
  text-align:center;
- padding:0.7rem;
+ padding:0.8rem;
 }
 
 .contact h3::after{
@@ -133,6 +152,7 @@ body {
 
 .contact h3:hover{
   color:rgba(255, 255, 255, 0.2);
+  transition: 0.3s all ease;
 }
 
 .contact a{
@@ -143,6 +163,7 @@ body {
 
 .contact a:hover{
   color:rgba(255, 255, 255, 0.2);
+  transition: 0.3s all ease;
 }
 
 .footer{
