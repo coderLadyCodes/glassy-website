@@ -16,12 +16,15 @@ body {
 }
 
 .container {
-  min-width: 100vw;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+/********************* MOBILE FIRST ******************************/
+
 
 .main {
   background-color: rgba(255, 255, 255, 0.1);
@@ -174,3 +177,105 @@ body {
   text-align: center;
   font-size:0.9rem;
 }
+
+/****************************  IPAD  ***********************/
+
+
+@media screen and (min-width: 768px) {
+  .main{
+    width:35rem;
+    height:50rem;
+  }
+
+  .aboutme h3 {
+    padding-top:2rem;
+    font-size:2.5rem;
+  }
+  
+  .aboutme h3::after{
+    width:6.1rem;
+    top: 5rem;
+    left: 41%;
+    
+  }
+  @keyframes deco {
+    0% 
+    {width: 0;}
+    100% 
+    {width: 6.1rem;}
+  }
+  .aboutme p{
+    font-size:2rem;
+    padding:1.9rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+  .projects h3{
+    font-size:2.5rem;
+    padding-bottom:2rem;
+   }
+
+   .projects h3::after{
+    width:6.1rem;
+    top: 16.1rem;
+    left: 41%;
+  }
+  @keyframes deco {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 6.1rem;
+    }
+  }
+
+  .proj{
+    width:13rem;
+    height:2.5rem;
+    border-radius:5rem;
+    margin: 15px;
+    text-align:center;
+  }
+  .proj a{
+    font-size:1.8rem;
+  }
+
+
+  .contact h3{
+    padding-top:2rem;
+    padding-bottom:3rem;
+    font-size:2.5rem;
+  }
+
+   .contact h3::after{
+    width:6.1rem;
+    top: 36.5rem;
+    left: 41%;
+   }
+   @keyframes deco {
+     0% {
+       width: 0;
+     }
+     100% {
+       width: 6.1rem;
+     }
+   }
+  
+   .contact a{
+     
+     padding:4.6rem;
+     font-size:2rem;
+   }
+   
+   .footer{
+     font-size:1.5rem;
+   }
+  }
+
+  /*************************  LARGER SCREENS  ************************/
+  
+  @media screen and (min-width:1024px) {
+    body{
+      font-size: 0.5rem;
+    }
+  }
