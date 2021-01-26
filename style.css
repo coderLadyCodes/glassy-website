@@ -5,14 +5,16 @@
 }
 
 body {
+  
   font-family: "Clicker Script", cursive;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
   background-image: url(image.jpg);
   background-size: cover;
-  background-repeat: no-repeat; 
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center; 
   overflow: hidden;
+  
 }
 
 .container {
@@ -42,7 +44,7 @@ body {
 }
 .aboutme h3:hover{
   color:rgba(255, 255, 255, 0.2);
-  transition: 0.3s all ease;
+  transition: 0.5s all ease;
 }
 .aboutme h3::after{
   content: "";
@@ -50,7 +52,7 @@ body {
   width: 4rem;
   height: 2px;
   background-color: #fff;
-  top: 2.8rem;
+  top: 2.1rem;
   left: 37%;
   animation-name: deco;
   animation-duration: 2s;
@@ -75,7 +77,7 @@ body {
 
 .projects h3:hover{
   color:rgba(255, 255, 255, 0.2);
-  transition: 0.3s all ease;
+  transition: 0.5s all ease;
 }
 
 .projects h3::after{
@@ -84,7 +86,7 @@ body {
   width: 4rem;
   height: 2px;
   background-color: #fff;
-  top: 11.8rem;
+  top: 8.6rem;
   left: 37%;
   animation-name: deco;
   animation-duration: 2s;
@@ -106,14 +108,15 @@ body {
 .proj{
   background-color:rgba(130, 247, 227, 0.1);
   width:7rem;
-  height:2rem;
+  height:1.5rem;
   border-radius:5rem;
-  margin: 5px;
+  margin: 10px;
   text-align:center;
 }
 
 .proj:hover{
   background-color:rgba(255, 255, 255, 0.01);
+  transition: 0.5s all ease;
 }
 
 .projects a{
@@ -124,13 +127,13 @@ body {
 
 .projects a:hover{
   color: rgba(255, 255, 255, 0.5);
-  transition: 0.3s all ease;
+  transition: 0.5s all ease;
 }
 
 
 .contact h3{
  text-align:center;
- padding:0.8rem;
+ padding:1.3rem;
 }
 
 .contact h3::after{
@@ -139,7 +142,7 @@ body {
   width: 4rem;
   height: 2px;
   background-color: #fff;
-  top: 23.1rem;
+  top: 20.3rem;
   left: 37%;
   animation-name: deco;
   animation-duration: 2s;
@@ -155,18 +158,20 @@ body {
 
 .contact h3:hover{
   color:rgba(255, 255, 255, 0.2);
-  transition: 0.3s all ease;
+  transition: 0.5s all ease;
 }
 
 .contact a{
   text-decoration:none;
   color:#fff;
-  padding:1.6rem;
+  padding:1rem;
+  display:inline-block;
+  margin-left:1.4rem;
 }
 
 .contact a:hover{
   color:rgba(255, 255, 255, 0.2);
-  transition: 0.3s all ease;
+  transition: 0.5s all ease;
 }
 
 .footer{
@@ -181,10 +186,16 @@ body {
 /****************************  IPAD  ***********************/
 
 
-@media screen and (min-width: 768px) {
+
+@media all and (min-width: 768px) {
+  body{
+    width: 20%;
+    height:25%;
+  }
   .main{
-    width:35rem;
-    height:50rem;
+     width:35rem;
+    height:50rem; 
+  
   }
 
   .aboutme h3 {
@@ -243,7 +254,7 @@ body {
 
   .contact h3{
     padding-top:2rem;
-    padding-bottom:3rem;
+    padding-bottom:2rem;
     font-size:2.5rem;
   }
 
@@ -262,11 +273,13 @@ body {
    }
   
    .contact a{
-     
-     padding:4.6rem;
-     font-size:2rem;
+    padding:1.5rem;
+    font-size:1.5rem;
+    display:inline-block;
+    margin-left:5rem;
    }
    
+  
    .footer{
      font-size:1.5rem;
    }
@@ -274,8 +287,3 @@ body {
 
   /*************************  LARGER SCREENS  ************************/
   
-  @media screen and (min-width:1024px) {
-    body{
-      font-size: 0.5rem;
-    }
-  }
