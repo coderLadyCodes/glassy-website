@@ -287,6 +287,7 @@ body {
 
   /*************************  LARGER SCREENS  ************************/
   
+  /*
   @media all and (min-width: 900px) {
     .main::after{
       content: "";
@@ -297,8 +298,8 @@ body {
       border-radius: 10px;
       backdrop-filter: blur(5px);
       box-shadow: 10px 5px 10px rgba(167, 218, 219, 0.3);
-     border-top: 1px solid rgba(255, 255, 255, 0.5);
-     border-left: 1px solid rgba(255, 255, 255, 0.5);
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
       top:8rem;
       left: 2rem;
       animation: updown 10s linear infinite;
@@ -306,7 +307,8 @@ body {
 
     @keyframes updown 
     {
-      0%,100% {transform: translateY(-4rem)};
+      0%, 100% {transform: translateY(-4rem)};
       50%{transform: translateY(4rem)};
     }
   }
+  */
