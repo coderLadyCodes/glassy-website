@@ -187,16 +187,16 @@ body {
 
 
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 768px) {
   body{
     width: 20%;
     height:25%;
   }
-  .main{
+  /* .main{
      width:35rem;
     height:50rem; 
   
-  }
+  } */
 
   .aboutme h3 {
     padding-top:2rem;
