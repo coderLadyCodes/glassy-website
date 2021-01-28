@@ -187,8 +187,8 @@ body {
 
 @media all and (min-width: 768px) {
   .main{
-    width: 25rem;
-    height: 40rem;
+    width: 30rem;
+    height: 41rem;
   }
    h3{
     font-size:2rem;
