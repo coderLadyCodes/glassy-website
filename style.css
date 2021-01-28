@@ -190,6 +190,9 @@ body {
     width: 25rem;
     height: 40rem;
   }
+  .aboutme h3{
+    color:red;
+  }
 }
 /*************************  LARGER SCREENS  ************************/
   
