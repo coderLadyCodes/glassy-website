@@ -199,7 +199,8 @@ body {
     padding:1rem;
   }
   .aboutme h3::after{
-    left:40%;
+    left:42%;
+    top:3rem;
   }
 }
 /*************************  LARGER SCREENS  ************************/
