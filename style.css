@@ -192,6 +192,10 @@ body {
   }
    h3{
     font-size:2rem;
+    padding:1rem;
+  }
+  .aboutme p{
+    font-size:1.7rem;
   }
 }
 /*************************  LARGER SCREENS  ************************/
