@@ -204,7 +204,7 @@ body {
 
 @media all and (min-width: 768px) {
   body{ 
-    background-position-y: -60rem;
+    background-position-y: -20rem;
   }
   .main{
     width: 30rem;
