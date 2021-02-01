@@ -186,6 +186,9 @@ body {
 /****************************  IPAD  ***********************/
 
 @media all and (min-width: 768px) {
+  body{ 
+    background-position-y: -60rem;
+  }
   .main{
     width: 30rem;
     height: 41rem;
@@ -197,10 +200,35 @@ body {
   .aboutme p{
     font-size:1.7rem;
     padding:1rem;
+    margin:1rem;
   }
   .aboutme h3::after{
-    left:42%;
-    top:3rem;
+    left:44%;
+    top:3rem; 
+  }
+
+  .projects h3::after{
+    left:44%;
+    top:15rem;
+  }
+  .proj{
+    width:10rem;
+    height:2rem;
+  }
+
+  .proj a {
+    font-size:1.3rem;
+  }
+
+  .contact h3::after{
+    left:44%;
+    top:29rem;
+  }
+
+  .contact a {
+    font-size:2rem;
+    display:inline-block;
+    margin-left:4.5rem;
   }
 }
 /*************************  LARGER SCREENS  ************************/
