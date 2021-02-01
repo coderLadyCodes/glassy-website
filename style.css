@@ -185,6 +185,7 @@ body {
 
 .dot{
   z-index:-20;
+  backdrop-filter: blur(5px);
   font-size:6rem;
   position:fixed;
   top:-10vh;
