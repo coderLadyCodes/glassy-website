@@ -212,12 +212,12 @@ body {
     top:15rem;
   }
   .proj{
-    width:10rem;
+    width:13rem;
     height:2rem;
   }
 
   .proj a {
-    font-size:1.3rem;
+    font-size:1.2rem;
   }
 
   .contact h3::after{
