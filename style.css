@@ -183,6 +183,22 @@ body {
   font-size:0.9rem;
 }
 
+.dot{
+  z-index:-20;
+  font-size:6rem;
+  position:fixed;
+  top:-10vh;
+  transform: translateY(0);
+  animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+   to {
+       transform: translateY(110vh);
+   }
+}
+
+
 /****************************  IPAD  ***********************/
 
 @media all and (min-width: 768px) {
@@ -230,6 +246,21 @@ body {
     display:inline-block;
     margin-left:4.5rem;
   }
+/*
+  .dot{
+    z-index:-20;
+    font-size:6rem;
+    position:fixed;
+    top:-10vh;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+ }
+ 
+ @keyframes fall {
+     to {
+         transform: translateY(110vh);
+     }
+ }
 }
 /*************************  LARGER SCREENS  ************************/
   
